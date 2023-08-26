@@ -1,0 +1,76 @@
+baseURL: "https://poojamaneesha.com/"
+title: Pooja Maneesha
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Pooja Maneesha
+  description: "My blog"
+  keywords: [Blog, Thoughts]
+  author: Me
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Home"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "Hello, I'm Pooja, and today, as I step into my 30s, I'm embarking on a new adventure – my very own weblog. This space is where I intend to share my thoughts, my journey through various travel experiences, the books that have enriched my life, and the exciting projects I'm currently immersed in. Join me as I unravel the tapestry of my experiences and insights, offering you a glimpse into the chapters that shape my world."
+
+  socialIcons:
+    - name: instagram
+      url: "https://instagram.com/poojamaneesha"
+
+menu:
+  main:
+    - identifier: thoughts
+      name: Thoughts
+      url: /thoughts/
+      weight: 10
+    - identifier: travel
+      name: Travel
+      url: /travel/
+      weight: 20
+    - identifier: books
+      name: Books
+      url: /books/
+      weight: 30
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+    - identifier: resume
+      name: Resume
+      url: "https://tinyurl.com/pma-resume"
+      weight: 50
