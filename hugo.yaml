@@ -1,9 +1,7 @@
 baseURL: "https://poojamaneesha.com/"
 title: Pooja Maneesha
 paginate: 5
-theme:
-  - PaperMod
-  - hugo-embed-pdf-shortcode
+theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -74,5 +72,5 @@ menu:
       weight: 40
     - identifier: resume
       name: Resume
-      url: /resume/
+      url: /resume/resume.pdf
       weight: 50
