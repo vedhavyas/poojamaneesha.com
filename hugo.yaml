@@ -1,8 +1,10 @@
 baseURL: "https://poojamaneesha.com/"
 title: Pooja Maneesha
 paginate: 5
-theme: PaperMod
-
+theme:
+  - PaperMod
+  - hugo-embed-pdf-shortcode
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -72,5 +74,5 @@ menu:
       weight: 40
     - identifier: resume
       name: Resume
-      url: "https://tinyurl.com/pma-resume"
+      url: /resume/
       weight: 50
